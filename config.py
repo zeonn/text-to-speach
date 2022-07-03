@@ -7,7 +7,7 @@ from google.cloud.texttospeech_v1 import (SsmlVoiceGender, AudioEncoding)
 class Config:
     language: str = 'en-US'
     voice_name: str = 'en-US-Wavenet-B'  # https://cloud.google.com/text-to-speech/docs/voices
-    speaking_rate: float = 1.0
+    speaking_rate: float = 0.87
     gender: SsmlVoiceGender = SsmlVoiceGender.MALE
     encoding: AudioEncoding = AudioEncoding.MP3
     month_char_limit: int = 1_000_000  # Free month limit
