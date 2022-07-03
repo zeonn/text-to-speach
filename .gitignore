@@ -1,0 +1,14 @@
+*.md.html
+*.pyc
+*.prefs
+*.project
+*.pydevproject
+*__pycache__*
+*.idea
+*/log/
+data/
+credentials.json
+*.log
+*.csv
+*.bin
+*.h5
