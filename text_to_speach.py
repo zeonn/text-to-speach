@@ -19,7 +19,7 @@ class TextToSpeach:
         service_account_key_file: str = 'credentials.json'
         self.statistics_file: str = 'usage_statistics.json'
         self.month_char_limit: int = self.config.month_char_limit
-        self.request_char_limit: int = 5_000
+        self.request_char_limit: int = 5_000  # Google limitation for one request
 
         credentials = Credentials.from_service_account_file(service_account_key_file)
         self.client = texttospeech.TextToSpeechClient(credentials=credentials)
