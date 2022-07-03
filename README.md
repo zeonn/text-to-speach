@@ -1,5 +1,5 @@
 # Text to Speach generator 
-#### Use Google Text-To-Speach API
+#### Use Google Text-To-Speach API to generate mp3 files from text files
 
 ---
 

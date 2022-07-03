@@ -8,6 +8,7 @@
 */log/
 data/
 credentials.json
+usage_statistics.json
 *.log
 *.csv
 *.bin
